@@ -1,0 +1,8 @@
+# Schema for the configuration files of the WCRS Radix theme.
+wcrs_radix.settings:
+  type: theme_settings
+  label: 'WCRS Radix settings'
+  mapping:
+    example:
+      type: string
+      label: Example
