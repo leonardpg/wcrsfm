@@ -1,0 +1,17 @@
+uuid: 4838bfeb-f927-4fec-abae-7e1ee64b3aff
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Program
+type: program
+description: 'Describes and provides a landing page for every program currently on WCRS'
+help: null
+new_revision: true
+preview_mode: 1
+display_submitted: false

@@ -1,0 +1,14 @@
+uuid: edb4f9b6-dcda-4620-be58-2b2842b420d3
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.show_producer
+  module:
+    - user
+id: user_add_role_action.show_producer
+label: 'Add the Show Producer role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: show_producer

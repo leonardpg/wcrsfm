@@ -1,0 +1,29 @@
+uuid: 8d9b3a69-c5c2-42fc-a26e-37b9846037ee
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_program_source
+    - node.type.program
+    - taxonomy.vocabulary.source
+id: node.program.field_program_source
+field_name: field_program_source
+entity_type: node
+bundle: program
+label: source
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      source: source
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

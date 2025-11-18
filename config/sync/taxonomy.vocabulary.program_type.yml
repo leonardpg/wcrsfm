@@ -1,0 +1,9 @@
+uuid: 75e8b6f6-8d84-4b44-9470-6a64015c58f4
+langcode: en
+status: true
+dependencies: {  }
+name: 'Program Type'
+vid: program_type
+description: "Program Type, either 'news / talk' or 'music'"
+weight: 0
+new_revision: false

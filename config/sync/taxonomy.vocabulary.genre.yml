@@ -1,0 +1,9 @@
+uuid: f155bd7c-7f59-4582-8ee5-d124f1a3a8b1
+langcode: en
+status: true
+dependencies: {  }
+name: Genre
+vid: genre
+description: 'Music genre, for classifying programs and program episodes'
+weight: 0
+new_revision: false

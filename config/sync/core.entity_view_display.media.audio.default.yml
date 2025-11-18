@@ -1,0 +1,43 @@
+uuid: aae36a40-0ead-44eb-b0a3-6d7d8b21e56f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.media.audio.field_audio_expiration_date
+    - field.field.media.audio.field_media_audio_file
+    - media.type.audio
+  module:
+    - datetime
+    - file
+_core:
+  default_config_hash: AS765MdDfNpK6K5eE7WVnBvpynClz_havy1R3bO3gVo
+id: media.audio.default
+targetEntityType: media
+bundle: audio
+mode: default
+content:
+  field_audio_expiration_date:
+    type: datetime_default
+    label: above
+    settings:
+      timezone_override: ''
+      format_type: medium
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_media_audio_file:
+    type: file_audio
+    label: visually_hidden
+    settings:
+      controls: true
+      autoplay: false
+      loop: false
+      multiple_file_display_type: tags
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  created: true
+  name: true
+  thumbnail: true
+  uid: true

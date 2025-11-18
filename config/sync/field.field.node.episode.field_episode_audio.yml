@@ -1,0 +1,29 @@
+uuid: 5f2b2cdf-104e-4e44-b480-4b4b8be292e8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_episode_audio
+    - media.type.audio
+    - node.type.episode
+id: node.episode.field_episode_audio
+field_name: field_episode_audio
+entity_type: node
+bundle: episode
+label: audio
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      audio: audio
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

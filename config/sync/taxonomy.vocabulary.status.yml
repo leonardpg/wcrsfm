@@ -1,0 +1,9 @@
+uuid: 46caa3d3-a330-4548-826e-d1e326f22736
+langcode: en
+status: true
+dependencies: {  }
+name: Status
+vid: status
+description: "Status of a program, either 'active', 'reruns', or 'inactive'"
+weight: 0
+new_revision: false

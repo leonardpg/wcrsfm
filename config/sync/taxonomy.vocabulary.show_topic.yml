@@ -1,0 +1,9 @@
+uuid: 7dee355a-78bc-4844-b3ee-f79b4c22eea8
+langcode: en
+status: true
+dependencies: {  }
+name: Topic
+vid: show_topic
+description: 'Topic for a given program or episode.'
+weight: 0
+new_revision: false

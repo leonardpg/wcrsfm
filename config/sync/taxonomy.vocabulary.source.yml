@@ -1,0 +1,9 @@
+uuid: 690b856e-972e-41d5-bb80-103e78ac015d
+langcode: en
+status: true
+dependencies: {  }
+name: source
+vid: source
+description: "Source of the program, one of two values: 'local' or 'syndicated'"
+weight: 0
+new_revision: false

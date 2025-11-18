@@ -1,0 +1,22 @@
+uuid: f5d6e892-8bd7-4685-b299-34257ea3d9ff
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - wcrs_radix
+_core:
+  default_config_hash: erQSEZF2XUjNmgTl0uNRBzmg18ZGXwUcw2FhApoeuHk
+id: wcrs_radix_content
+theme: wcrs_radix
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }

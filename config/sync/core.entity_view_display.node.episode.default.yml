@@ -1,0 +1,89 @@
+uuid: 271cc5c3-02b5-4477-b1a2-0d38e65ea084
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.episode.field_episode_audio
+    - field.field.node.episode.field_episode_date
+    - field.field.node.episode.field_episode_description
+    - field.field.node.episode.field_episode_genre
+    - field.field.node.episode.field_episode_mixcloud_url
+    - field.field.node.episode.field_episode_program
+    - field.field.node.episode.field_episode_topic
+    - node.type.episode
+  module:
+    - datetime
+    - link
+    - text
+    - user
+id: node.episode.default
+targetEntityType: node
+bundle: episode
+mode: default
+content:
+  field_episode_audio:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 105
+    region: content
+  field_episode_date:
+    type: datetime_default
+    label: above
+    settings:
+      timezone_override: ''
+      format_type: medium
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  field_episode_description:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  field_episode_genre:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 106
+    region: content
+  field_episode_mixcloud_url:
+    type: link
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 104
+    region: content
+  field_episode_program:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 103
+    region: content
+  field_episode_topic:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 107
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

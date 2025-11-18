@@ -1,0 +1,21 @@
+uuid: 2cb3822c-4bbb-4706-b800-80ea4d043c03
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_audio_expiration_date
+    - media.type.audio
+  module:
+    - datetime
+id: media.audio.field_audio_expiration_date
+field_name: field_audio_expiration_date
+entity_type: media
+bundle: audio
+label: 'Expiration Date'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

@@ -1,0 +1,22 @@
+uuid: 20b508ba-1d18-4ffb-a683-f9c2e5bcf655
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - wcrs_radix
+_core:
+  default_config_hash: VhBzWb7lMRtIOg9G7VSw_0uopi-7zXeHq4vXqqV1HFE
+id: wcrs_radix_breadcrumbs
+theme: wcrs_radix
+region: breadcrumb
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  label_display: '0'
+  provider: system
+visibility: {  }

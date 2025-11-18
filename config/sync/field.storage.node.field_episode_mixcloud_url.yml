@@ -1,0 +1,19 @@
+uuid: 7ca5da90-181b-489b-a15c-94006a74b86b
+langcode: en
+status: true
+dependencies:
+  module:
+    - link
+    - node
+id: node.field_episode_mixcloud_url
+field_name: field_episode_mixcloud_url
+entity_type: node
+type: link
+settings: {  }
+module: link
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

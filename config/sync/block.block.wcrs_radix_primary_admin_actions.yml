@@ -1,0 +1,20 @@
+uuid: 83acfed7-3c60-43e8-acf7-646b9973948d
+langcode: en
+status: true
+dependencies:
+  theme:
+    - wcrs_radix
+_core:
+  default_config_hash: Q9_2whdOj1YIomfvsIfopROW4FT_X5pY0DjdOiOaQ5U
+id: wcrs_radix_primary_admin_actions
+theme: wcrs_radix
+region: header
+weight: -5
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  label_display: '0'
+  provider: core
+visibility: {  }

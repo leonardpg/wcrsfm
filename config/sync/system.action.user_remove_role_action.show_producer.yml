@@ -1,0 +1,14 @@
+uuid: 42d32e3d-5dde-4ccd-b712-b7f388b2bb58
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.show_producer
+  module:
+    - user
+id: user_remove_role_action.show_producer
+label: 'Remove the Show Producer role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: show_producer

@@ -1,0 +1,38 @@
+uuid: 52011426-76de-4482-bf59-598396d967ed
+langcode: en
+status: true
+dependencies:
+  config:
+    - filter.format.basic_html
+    - node.type.article
+    - node.type.page
+    - taxonomy.vocabulary.tags
+  module:
+    - contextual
+    - file
+    - filter
+    - node
+    - system
+    - taxonomy
+    - toolbar
+id: show_producer
+label: 'Show Producer'
+weight: 4
+is_admin: false
+permissions:
+  - 'access administration pages'
+  - 'access content overview'
+  - 'access contextual links'
+  - 'access files overview'
+  - 'access toolbar'
+  - 'create article content'
+  - 'create terms in tags'
+  - 'delete own article content'
+  - 'delete own files'
+  - 'edit own article content'
+  - 'edit own page content'
+  - 'edit terms in tags'
+  - 'use text format basic_html'
+  - 'view all revisions'
+  - 'view own unpublished content'
+  - 'view the administration theme'

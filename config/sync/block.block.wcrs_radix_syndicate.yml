@@ -1,0 +1,23 @@
+uuid: d8d97346-c573-47d5-b8f1-9f55aaa3c44e
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+  theme:
+    - wcrs_radix
+_core:
+  default_config_hash: 0gq3VPg-_UM69FCCWurLFIrrnIjC2HLKhwo9iQNtcUo
+id: wcrs_radix_syndicate
+theme: wcrs_radix
+region: header
+weight: 0
+provider: null
+plugin: node_syndicate_block
+settings:
+  id: node_syndicate_block
+  label: 'RSS feed'
+  label_display: '0'
+  provider: node
+  block_count: 10
+visibility: {  }

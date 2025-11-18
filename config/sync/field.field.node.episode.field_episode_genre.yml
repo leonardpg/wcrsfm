@@ -1,0 +1,29 @@
+uuid: 98db0f31-245b-476d-9c4c-609dbdaaa5b8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_episode_genre
+    - node.type.episode
+    - taxonomy.vocabulary.genre
+id: node.episode.field_episode_genre
+field_name: field_episode_genre
+entity_type: node
+bundle: episode
+label: Genre
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      genre: genre
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference
